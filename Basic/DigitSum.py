@@ -7,4 +7,4 @@ def DigitSum(n):
         sum = sum + last_digit
         n = n // 10
     return sum
-print(DigitSum(n))
+print(DigitSum)

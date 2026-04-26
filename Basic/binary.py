@@ -24,3 +24,10 @@ print(binary(n))
 """
 """
 Now to try to do it by recusrion """
+def binary(n):
+    if n == 0:
+        return ""
+    else:
+        return binary(n//2) + str(n%2)
+print(binary(n))
+    

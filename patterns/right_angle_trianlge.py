@@ -4,3 +4,7 @@ for i in range(1,n+1):
     for i in range(1,i+1):
         print("*", end = "")
     print()
+"""Another way to do this with single loop..
+for i in range(1, n+1):
+    print("*" * i)
+    """
